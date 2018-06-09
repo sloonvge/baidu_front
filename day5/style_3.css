@@ -1,0 +1,53 @@
+.resume {
+    width: 70%;
+    padding: 1em;
+  }
+
+ a {
+    color: blue;
+ }
+
+ .resume-title {
+    font-size: 1.5em;
+    background-color: #787878;
+    padding: .5em 0 .5em 1em;
+    
+    color: #ffffff;
+ }
+
+ div {
+    box-sizing: border-box;
+}
+
+ .basic-info {
+    padding-right: 1em;
+    display: flex;    
+    border-bottom: .1em solid #D8D8D8;
+
+ }
+  .title {  
+    padding: 2.6em 1em 2.6em 1em;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: #B8B8B8;    
+    height: 7em; 
+    width: 7em;   
+    display: inline-block;
+    text-align: center;
+  }
+  .content {
+    padding: 0 .5em 0 .5em;
+  }
+  .content-text {
+    padding: .5em .5em 0 0;
+    margin: 0 2em 0 0;
+  }
+ .row,
+ .row .content-text, 
+ .col .content-text {
+    display: flex;
+  }
+  .text-title {  
+    font-weight: bold;
+    margin: 0 0.5em 0 0;
+  }
